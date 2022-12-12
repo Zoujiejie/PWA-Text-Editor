@@ -4,12 +4,11 @@
   "description": "",
   "main": "server.js",
   "engines": {
-    "node": "v16.18.0",
-    "buildpack": "heroku/nodejs"
+    "node": "v16.18.0"
   },
   "scripts": {
     "start": "node index.js",
-    "build": "ng build",
+    "build": "cd client && cd server && node server.js",
     "dev": "webpack-dev-server",
     "start:dev": "concurrently \"cd server && npm run server\" \"cd client && npm run dev\"",
     "server": "cd server nodemon server.js --ignore client",
