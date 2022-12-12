@@ -2,7 +2,7 @@
 
 ## Websites
 - GitHub Repo: https://github.com/Zoujiejie/PWA-Text-Editor
-- Heroku: 
+- Heroku: https://pwa-text-editor-jie.herokuapp.com/ 
 
 ## User Story
 ```
