@@ -7,7 +7,7 @@
     "node": "v16.*"
   },
   "scripts": {
-    "start": "node index.js",
+    "start": "cd server && node server.js",
     "build": "cd client && npm run build",
     "dev": "webpack-dev-server",
     "start:dev": "concurrently \"cd server && npm run server\" \"cd client && npm run dev\"",
