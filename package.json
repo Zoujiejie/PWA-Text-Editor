@@ -9,7 +9,7 @@
   },
   "scripts": {
     "start": "node index.js",
-    "build": "webpack",
+    "build": "ng build",
     "dev": "webpack-dev-server",
     "start:dev": "concurrently \"cd server && npm run server\" \"cd client && npm run dev\"",
     "server": "cd server nodemon server.js --ignore client",
