@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
+  "engines": {
+    "node": "v16.18.0",
+    "buildpack": "heroku/nodejs"
+  },
   "scripts": {
     "start": "node index.js",
     "build": "webpack",
